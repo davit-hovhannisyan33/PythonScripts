@@ -41,4 +41,3 @@ options = get_arguments()
 change_mac(options.interface, options.mac)
 time.sleep(2)
 get_current_mac(options.interface,options.mac)
-
